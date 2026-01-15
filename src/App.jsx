@@ -1,8 +1,10 @@
+import Navbar from "./components/Navbar";
+
 const App = () => {
   return (
-    <h1 className="text-4xl underline text-indigo-400">
-      Hello, Apple Macbook Pro!
-    </h1>
+    <main>
+      <Navbar />
+    </main>
   );
 };
 
