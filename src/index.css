@@ -296,7 +296,7 @@ body {
   }
 
   #highlights {
-    @apply container mx-auto lg:py-40 max-lg:px-5;
+    @apply container mx-auto lg:py-40 px-5;
 
     h2 {
       @apply text-white font-semibold text-3xl lg:text-7xl text-center max-w-3xl mx-auto;
@@ -339,6 +339,7 @@ body {
         p {
           @apply font-semibold text-4xl max-w-2xs;
         }
+
         .apple-gradient {
           @apply p-10 rounded-3xl flex items-center gap-7 relative;
 
@@ -400,7 +401,7 @@ body {
   }
 
   footer {
-    @apply container mx-auto py-7 max-lg:px-5;
+    @apply container mx-auto py-7 px-5;
 
     .info {
       @apply flex-between;

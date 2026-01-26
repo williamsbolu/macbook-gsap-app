@@ -23,7 +23,7 @@ const Showcase = () => {
         })
         .to(".content", { opacity: 1, y: 0, ease: "power1.in" });
     }
-  });
+  }, [isTablet]);
 
   return (
     <section id="showcase">
